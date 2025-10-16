@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Walter Chukwuemeka Oko-Ugwu - Professional Graphics Designer, Web Developer, App Developer, and Digital Artist" />
+  <title>Walter Oko-Ugwu | Digital Creative Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="assets/walme-logo.jpg" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="font-sans bg-offwhite text-dark">
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="flex items-center justify-between px-6 py-4 bg-white shadow-md fixed w-full z-10">
+    <div class="flex items-center space-x-3">
+      <img src="assets/walme logo 2.jpg" alt="Logo" class="w-10 h-10 rounded-full" />
+      <span class="font-bold text-xl text-blue-600">Walter Chukwuemeka</span>
+    </div>
+
+    <ul class="hidden md:flex space-x-6 text-gray-700 font-medium">
+      <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+      <li><a href="#about" class="hover:text-blue-600">About</a></li>
+      <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+      <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+    </ul>
+
+    <button id="menu-toggle" class="md:hidden text-gray-700">
+      <i data-feather="menu"></i>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden flex-col items-center bg-white shadow-md py-4 space-y-4 md:hidden fixed w-full mt-[70px]">
+    <a href="#home" class="hover:text-blue-600">Home</a>
+    <a href="#about" class="hover:text-blue-600">About</a>
+    <a href="#projects" class="hover:text-blue-600">Projects</a>
+    <a href="#contact" class="hover:text-blue-600">Contact</a>
+  </div>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="flex flex-col-reverse md:flex-row items-center justify-between px-10 md:px-20 py-32 bg-gradient-to-br from-white to-blue-50">
+    <div class="md:w-1/2 mt-10 md:mt-0">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 text-gray-800 animate__animated" data-animation="animate__fadeInUp">
+        Hi, I'm <span class="text-blue-600">Walter</span> 
+      </h1>
+      <p class="text-gray-600 mb-6 animate__animated" data-animation="animate__fadeInUp">
+        A creative designer and developer passionate about crafting digital experiences that inspire.
+      </p>
+      <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition-all">Hire Me</a>
+    </div>
+
+    <div class="md:w-1/2 flex justify-center">
+      <img src="assets/Gemini_Generated_Image_dmofqzdmofqzdmof.png." alt="Walter" class="rounded-full w-64 h-64 object-cover shadow-lg animate__animated" data-animation="animate__zoomIn" />
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="py-20 px-10 md:px-20 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6 text-gray-800 animate__animated" data-animation="animate__fadeInUp">About Me</h2>
+      <p class="text-gray-600 leading-relaxed animate__animated" data-animation="animate__fadeInUp">
+        I’m <strong>Walter Chukwuemeka Oko-Ugwu</strong>, CEO and Founder <span class="text-blue-600 font-semibold">WALME</span> —
+        a passionate <strong>graphics designer, web developer, app developer, and digital artist</strong> based in Nigeria.
+        I love turning ideas into interactive, aesthetic, and meaningful creations.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="py-20 px-10 md:px-20 bg-blue-50">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10 text-gray-800 animate__animated" data-animation="animate__fadeInUp">Projects</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden animate__animated" data-animation="animate__zoomIn">
+          <img src="assets/Rent Radar logo 1.jpg" alt="Project 1" class="w-full h-48 object-cover" />
+          <div class="p-5">
+            <h3 class="font-semibold text-lg text-gray-800 mb-2">Rent Radar</h3>
+            <p class="text-gray-600 text-sm">A property management platform for landlords to track rents and tenants efficiently.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden animate__animated" data-animation="animate__zoomIn">
+          <img src="assets/Walme lens logo.png" alt="Project 2" class="w-full h-48 object-cover" />
+          <div class="p-5">
+            <h3 class="font-semibold text-lg text-gray-800 mb-2">Walme Lens</h3>
+            <p class="text-gray-600 text-sm">My photography brand that captures the soul of every moment.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden animate__animated" data-animation="animate__zoomIn">
+          <img src="assets/kemxhair project 3.jpg" alt="Project 3" class="w-full h-48 object-cover" />
+          <div class="p-5">
+            <h3 class="font-semibold text-lg text-gray-800 mb-2">KEMX Hair Plug</h3>
+            <p class="text-gray-600 text-sm">An e-commerce hair brand website built for seamless customer experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== GALLERY SECTION ===== -->
+<section id="gallery" class="py-20 bg-gray-50">
+  <div class="max-w-6xl mx-auto text-center px-6">
+    <h2 class="text-4xl font-bold mb-4 text-gray-800">My Artworks</h2>
+    <p class="text-gray-600 mb-12">
+      A little peek into my world — where creativity meets expression 🎨✨
+    </p>
+
+    <!-- Gallery Grid -->
+    <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div class="overflow-hidden rounded-2xl shadow-lg group">
+        <img src="assets/Gemini_Generated_Image_24ke9t24ke9t24ke.png" alt="Artwork 1"
+             class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+      </div>
+      <div class="overflow-hidden rounded-2xl shadow-lg group">
+        <img src="assets/Gemini_Generated_Image_8uaprs8uaprs8uap.png" alt="Artwork 2"
+             class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+      </div>
+      <div class="overflow-hidden rounded-2xl shadow-lg group">
+        <img src="assets/Gemini_Generated_Image_wej1euwej1euwej1.png" alt="Artwork 3"
+             class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+      </div>
+      <div class="overflow-hidden rounded-2xl shadow-lg group">
+        <img src="assets/Gemini_Generated_Image_6xv6wj6xv6wj6xv6.png" alt="Artwork 4"
+             class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+      </div>
+      <!-- Add more if you like -->
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="py-20 px-10 md:px-20 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6 text-gray-800 animate__animated" data-animation="animate__fadeInUp">Get in Touch</h2>
+      <p class="text-gray-600 mb-10 animate__animated" data-animation="animate__fadeInUp">
+        Have a project or idea you’d like to bring to life? Let’s talk!
+      </p>
+
+      <form action="#" method="POST" class="grid grid-cols-1 gap-5 max-w-md mx-auto animate__animated" data-animation="animate__fadeInUp">
+        <input type="text" placeholder="Your Name" class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+        <input type="email" placeholder="Your Email" class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+        <textarea rows="5" placeholder="Your Message" class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition-all">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-gray-900 text-gray-300 text-center py-6">
+    <p>© 2025 <span class="text-blue-400">BlaqWalter</span>. All Rights Reserved.</p>
+    <div class="flex justify-center space-x-5 mt-3">
+      <a href="#" class="hover:text-blue-400"><i data-feather="instagram"></i></a>
+      <a href="#" class="hover:text-blue-400"><i data-feather="facebook"></i></a>
+      <a href="#" class="hover:text-blue-400"><i data-feather="twitter"></i></a>
+      <a href="#" class="hover:text-blue-400"><i data-feather="linkedin"></i></a>
+    </div>
+  </footer>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="script.js"></script>
+</body>
+</html>

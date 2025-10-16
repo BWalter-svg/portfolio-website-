@@ -1,0 +1,81 @@
+/* ========== TAILWIND DIRECTIVES ========== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========== CUSTOM COLORS ========== */
+:root {
+  --dark: #333333;
+  --yellow: #ffc93c;
+  --red: #ff595e;
+  --blue: #007aff;
+  --offwhite: #f9f9f9;
+}
+
+/* ========== GLOBAL STYLES ========== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--offwhite);
+  color: var(--dark);
+  font-family: "Inter", sans-serif;
+}
+
+/* ========== LINKS ========== */
+a {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* ========== BUTTONS ========== */
+button,
+.btn {
+  transition: all 0.3s ease;
+}
+
+/* ========== HERO IMAGE ========== */
+#home img {
+  border: 5px solid var(--blue);
+  transition: transform 0.4s ease;
+}
+
+#home img:hover {
+  transform: scale(1.05);
+}
+
+/* ========== PROJECT CARDS ========== */
+#projects .bg-white {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .bg-white:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== CONTACT FORM ========== */
+#contact input,
+#contact textarea {
+  transition: box-shadow 0.3s ease;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  box-shadow: 0 0 0 2px var(--blue);
+}
+
+/* ========== FOOTER ICONS ========== */
+footer a {
+  transition: transform 0.3s ease;
+}
+
+footer a:hover {
+  transform: scale(1.2);
+}
+
+/* ========== MOBILE MENU FIX ========== */
+#mobile-menu a {
+  font-weight: 500;
+  text-transform: capitalize;
+}
